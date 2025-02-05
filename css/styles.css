@@ -1,14 +1,18 @@
 
 
+/* Grid container configurations */
+
+.section_header{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+}
+
 .nav-bar{
 display: grid;
 grid-template-rows: 1fr;
 grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
 background-color: red;
-}
-
-.nav-bar__list{
-    display: grid;
 }
 
 .banner__title{
@@ -36,44 +40,41 @@ background-color: red;
 .services{
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: lightblue;
 }
 
 .blog{
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: lightcoral;
 }
 
 .portfolio{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: lightseagreen;
 }
 
 .clients{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: lightyellow;
 }
+
+
+
 
 .author{
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 4fr 3fr;
     background-color: lightslategrey;
 }
 
-.about-us{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    background-color: sienna;
-}
 
 .about-us{
     display: grid;
@@ -83,7 +84,7 @@ background-color: red;
 }
 
 
-
+/* Grid column configurations */
 
 .col {
     position: relative;
