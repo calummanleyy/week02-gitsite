@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Calum's Uber Mega Functioning Big Computer Brain Blog</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
   <meta name="description" content="My brain has never been so full.">
 
   <meta property="og:title" content="">
@@ -27,22 +27,34 @@
   <!--top navbar: -->
    
     <nav class="nav-bar">
-      <h1 class="banner__title">Metrolics</h1>
-      <ul class="nav-bar__list">
-        <li class="nav-bar__list__item"><a href="" class="">Home</a></li>
-        <li class="nav-bar__list__item"><a href="" class="">Portfolio</a></li>
-        <li class="nav-bar__list__item"><a href="" class="">Blog</a></li>
-        <li class="nav-bar__list__item"><a href="" class="">Quo Vadis?</a></li>
-        <li class="nav-bar__list__item"><a href="" class="">Let's Chat</a></li>
-      </ul>
+      <div class="col">
+        <h1 class="banner__title">Metrolics </h1>
+        <img src="https://via.placeholder.com/150" alt="metrolics_logo" class="nav-bar__logo">
+      </div>
+        <div class="col">
+          <button class="nav-bar__list__item"><a href="">Home</a>
+        </div>
+        <div class="col">
+          <button class="nav-bar__list__item"><a href="">Portfolio</a>
+        </div>
+        <div class="col">
+          <button class="nav-bar__list__item"><a href="">Blog</a>
+        </div>
+        <div class="col">
+          <button class="nav-bar__list__item"><a href="">Quo Vadis?</a>
+        </div>
+        <div class="col">
+          <button class="nav-bar__list__item"><a href="">Let's Chat</a>
+        </div>
+
     </nav>
 
  <!-- Metrolics front graphic: -->
  <header class="banner">
     <section class="banner__flags">
       <h2 class="flag__item">Metro Style</h2>
-        <p class="flag__item">Quick on the feet</p>
-          <p class="flag__item">Metro Styling reinvented</p>
+        <h2 class="flag__item">Quick on the feet</h2>
+          <h2 class="flag__item">Metro Styling reinvented</h2>
             <img src="https://via.placeholder.com/500x300" alt="bannerimg" class="banner__large__img">
     </section> 
   </header>
@@ -76,13 +88,13 @@
           </div>
           <div class="service_item">
             <img src="https://via.placeholder.com/100" alt="app" class="service__item__image">
-              <h3 class="item__text--bold"">App Development</h3>
+              <h3 class="item__text--bold">App Development</h3>
                 <p class="item__text--desc">We are a fairly small, flexible design studio that designs for print and web. 
                   We work flexibly with clients to fulfil their design needs. We are confident you will be pleased with the results.</p>
           </div>
           <div class="service__item">
             <img src="https://via.placeholder.com/100" alt="ux" class="service__item__image">
-              <h3 class="item__text--bold"">UX Design</h3>
+              <h3 class="item__text--bold">UX Design</h3>
                 <p class="item__text--desc">We are a fairly small, flexible design studio that designs for print and web. 
                   We work flexibly with clients to fulfil their design needs. We are confident you will be pleased with the results.</p>
           </div>
@@ -223,8 +235,8 @@
         <h2 class="section__text--bold">Satisfaction Guaranteed.</h2>
         <p class="section__text--desc">Past clients stoked with our work. We are not happy until YOU are happy.</p>
       </div>
-      <div class="">
-        <img src="https://via.placeholder.com/150" alt="" class="">
+      <div class="clients__cards">
+        <img src="https://via.placeholder.com/150" alt="" class="clients__image">
       </div>
 
     </section>
@@ -233,53 +245,57 @@
  
   <footer class="footer">
 
-  </section>
-  <img src="https://via.placeholder.com/150" alt="" class="">
-  <p class="">Alf has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. 
+  <section class="author">
+  <img src="https://via.placeholder.com/150" alt="" class="author__image">
+  <p class="item__text--desc">Alf has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. 
     He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients.</p>
-<section>
+  </section>
 
-    <!-- Container card for an about us column. -->
-    <section class="">
-      <h3 class="">About Us</h3>
-      <p class="">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
-        Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </p>
-    </section>
+    <!-- Container card for an about us section. -->
+    <section class="about-us">
+
+    <!-- Container card for an about us desc column. -->
+      <div class="about-us__card">
+        <h3 class="item__text--bold">About Us</h3>
+        <p class="item__text--desc">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
+          Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </p>
+      </div>
 
     <!-- Container card for social media preview images. -->
-    <section class="">
-      <h3 class="">Social Media</h3>
-      <div class="">
+      <div class="about-us__card">
+        <h3 class="item__text--bold">Instagram</h3>
+        <img class="about-us__posting" href="#" alt="posting"></div>
       </div>
-    </section>
 
     <!-- Another container card for extra info -->
-    <section class="">
-      <h3 class="">What's new!</h3>
-        <div class="">
-          <p class="">@Minions - </p><p class="">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
+    <div class="about-us__card">
+      <h3 class="">What's new on Mastodon</h3>
+        <div class="about-us__card">
+          <p class="item__text--highlight">@Minions - </p><p class="">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
           Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </p>
         </div>
-        <div class="">
-          <p class="">@Minions - </p>
+        <div class="about-us__card">
+          <p class="item__text--highlight">@Minions - </p>
           <p class="">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
           Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </p>
         </div>
-        <div class="">
-          <p class="">@Minions - </p>
+        <div class="about-us__card">
+          <p class="item__text--highlight">@Minions - </p>
           <p class="">Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
           Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </p>
         </div>
-    </section>
+      </div>
+    
 
     <!-- Container card for social media preview images. -->
-    <section class="">
-      <h3 class="">Follow Us</h3>
+    <div class="about-us__card">
+      <h3 class="item__text--bold">Track us!</h3>
       <!-- Container for collection of clickable social media links -->
-      <ul class="">
-        <li class=""><a href="#" class="">Twitter</a></li>
-        <li class=""><a href="#" class="">Instagram</a></li>
+      <ul class="about-us__icons">
+        <li class="about-us__icon"><a href="#">Twitter</a></li>
+        <li class="about-us__icon"><a href="#">Instagram</a></li>
       </ul>
+    </div>
     </section>
   </footer> 
 </body>

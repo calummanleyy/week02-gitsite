@@ -1,0 +1,92 @@
+
+
+.nav-bar{
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+background-color: red;
+}
+
+.nav-bar__list{
+    display: grid;
+}
+
+.banner__title{
+    margin:auto;
+}
+.nav-bar__logo{
+    display: inline-block;
+    margin: auto;
+}
+
+.banner{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: plum;
+}
+
+.intro{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: greenyellow;
+}
+
+.services{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: lightblue;
+}
+
+.blog{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: lightcoral;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: lightseagreen;
+}
+
+.clients{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: lightyellow;
+}
+
+.author{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: lightslategrey;
+}
+
+.about-us{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    background-color: sienna;
+}
+
+.about-us{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: sienna;
+}
+
+
+
+
+.col {
+    position: relative;
+    background-color: orange;
+
+}
