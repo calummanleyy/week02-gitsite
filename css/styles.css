@@ -8,6 +8,12 @@
     background-color: white;
 }
 
+.intro{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: wheat;
+}
+
 .nav-bar{
 display: grid;
 grid-template-rows: 1fr;
@@ -28,13 +34,6 @@ background-color: red;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     background-color: plum;
-}
-
-.intro{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    background-color: greenyellow;
 }
 
 .services{
