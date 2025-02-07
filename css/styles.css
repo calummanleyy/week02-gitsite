@@ -128,6 +128,13 @@
         padding: 0rem 1rem;
     }
 
+    .nav-bar__list__item{
+        display: none;
+        width: 100%;
+        height: 100%;
+        
+    }
+
     .banner{
         display: none;
         grid-template-rows: 1fr;
@@ -179,8 +186,8 @@
 
     .about-us{
         display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 0rem 1rem;
     }
 }
@@ -192,28 +199,28 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .section__header{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .nav-bar{
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .banner{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .services{
@@ -222,7 +229,7 @@
         grid-template-columns: 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .blog{
@@ -231,7 +238,7 @@
         grid-template-columns: 2fr 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .portfolio{
@@ -240,7 +247,7 @@
         grid-template-columns: 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .clients{
@@ -249,21 +256,21 @@
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 
     .author{
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 7fr;
-        padding: 0rem 5rem;
+        grid-template-columns: 2fr 6fr;
+        padding: 0rem 1rem;
     }
 
     .about-us{
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 1rem;
     }
 }
 
@@ -325,6 +332,8 @@
         padding: 0rem 5rem;
     }
 
+
+
     .clients{
         display: grid;
         grid-template-rows: 1fr;
@@ -337,7 +346,7 @@
     .author{
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 1fr 4fr 3fr;
+        grid-template-columns: 1fr 5fr 2fr;
         padding: 0rem 5rem;
     }
 
