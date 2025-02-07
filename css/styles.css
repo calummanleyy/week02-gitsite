@@ -1,9 +1,5 @@
 
 
-
-
-/* Grid container configurations */
-
 .section__header{
     display: grid;
     grid-template-columns: 1fr;
@@ -130,7 +126,7 @@
 }
 
 
-/* Grid column configurations */
+/* ------------------------------------- Grid column configurations -------------------------------------- */
 .col {
     position: relative;
     background-color: orange;
@@ -144,15 +140,17 @@
 }
 
 
-/* Mobile */
+/* ------------------------------------- MOBILE SCREEN CONFIG (0PX START) -------------------------------------- */
 @media screen and (min-width: 0px) {
 
 }
-/* Tablet */
+
+/* ------------------------------------- TABLET SCREEN CONFIG (577PX START) -------------------------------------- */
 @media screen and (min-width: 577px) {
 
 }
-/* Desktop */
+
+/* ------------------------------------- DESKTOP SCREEN CONFIG (769PX START) -------------------------------------- */
 @media screen and (min-width: 769px) {
 
 }
