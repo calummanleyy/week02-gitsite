@@ -1,6 +1,10 @@
 
 /* ------------------------------------- SECTION CODE: PAGE-WIDE CONTENT STYLING -------------------------------------- */
 
+.html {
+    margin: 0;
+    padding: 0;
+}
 
 .intro{
     background-color: wheat;
@@ -38,8 +42,8 @@
 }
 
 .banner__flags{
-    background-image:url(/img/banner_minions.png);
-    background-size: cover;
+    background-image: url(/img/banner_minions.png);
+    background-size: 100% 100%;
 }
 
 .services{
@@ -297,21 +301,21 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .section__header{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .nav-bar{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .nav-bar__list__item{
@@ -324,7 +328,7 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .services{
@@ -333,7 +337,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .blog{
@@ -342,7 +346,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .portfolio{
@@ -351,7 +355,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
 
@@ -362,21 +366,21 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         row-gap: 1rem;
         column-gap: 1rem;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .author{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 5fr 2fr;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
     }
 
     .about-us{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 0rem 5rem;
+        padding: 0rem 8rem;
         column-gap: 2rem;
     }
 
